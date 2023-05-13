@@ -128,3 +128,47 @@ console.log(null == undefined)
 console.log(0 == false)
 console.log('0' == false)
 
+//condiciones
+/*if(condicion){
+
+}else if(condicion){
+
+}
+if(condicion) console.log('mensaje');
+*/
+
+/*if('0'){
+    console.log('entro')
+}*/
+
+//condicion ternario
+console.log((4>5)? 'verdad' : 'falso');
+
+//while
+/*while (condition) {
+    
+}*/
+/*do {
+    
+} while (condition);*/
+
+//for
+/*for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+}*/
+
+//switch
+a = 2+1;
+switch (a) {
+    case 3:
+        console.log('no es')
+        break;
+    case 4:
+        console.log('es')
+        break;
+
+    default:
+        break;
+}
+
+//funciones
