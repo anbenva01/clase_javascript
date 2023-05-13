@@ -172,3 +172,62 @@ switch (a) {
 }
 
 //funciones
+const persona = {
+    nombre: "roberto",
+    apellido: "morales",
+    edad: 33
+}
+
+persona.nombre = "andres";
+persona.apellido = "benjumea";
+persona.edad = 29;
+
+console.log(persona);
+
+function sumar(num_uno,num_dos) {
+    console.log(num_uno + num_dos);    
+}
+
+sumar(4,3);
+
+//funcion flecha
+
+const sumar2 = (num_uno,num_dos) =>{
+    console.log(num_uno+num_dos);
+}
+
+sumar2(4,3);
+
+const saludar = ()=>{
+    console.log('hola mundo');
+}
+saludar();
+const cuadrado = base =>{
+    console.log(base**cuadrado);
+}
+
+cuadrado(2);
+
+const sumar_dos = (num_uno,num_dos) =>{
+    return (num_uno+num_dos);
+}
+
+const suma_tres = (num_uno,num_dos) => num_uno+num_dos;
+
+// template string
+
+// backtick
+
+const potencia = (base,altura) => `el resultado es ${base}`
+
+//destructurin objects
+const mascota = {
+    nombre: 'tom',
+    edad: 4,
+    vivo: true,
+    razas: ['pastor aleman','ptibull']
+}
+
+console.log(mascota,nombre)
+
+const {vivo,razas} = mascota;
