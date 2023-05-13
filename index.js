@@ -231,3 +231,16 @@ const mascota = {
 console.log(mascota,nombre)
 
 const {vivo,razas} = mascota;
+
+const obtenerPersonajes = async () =>{
+    try {
+        const res = await fetch("https://rickandmortyapi.com/api/character");
+        const data = await res.json();
+        const results = data.results;
+        console.log(results);
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+obtenerPersonajes();
